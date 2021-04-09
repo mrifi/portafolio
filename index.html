@@ -188,10 +188,10 @@
             <h2 class="section-title">Contacto</h2>
 
             <div class="contact__container bd-grid">
-                <form action="POST" class="contact__form" method="POST" data-netlify="true">
-                    <input type="text" placeholder="Nombre" class="contact__input">
-                    <input type="mail" placeholder="Email" class="contact__input">
-                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                <form name="contact" action="POST" class="contact__form" method="POST" data-netlify="true">
+                    <input type="text" placeholder="Nombre" class="contact__input" name="name">
+                    <input type="mail" placeholder="Email" class="contact__input" name="email">
+                    <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
                     <input type="submit" value="Enviar" class="contact__button button">
                 </form>
             </div>
