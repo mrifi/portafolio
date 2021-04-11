@@ -3,42 +3,46 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="../css/buckup.css">
     <title>BUCK UP</title>
 </head>
 
 <body>
-    <header>
-        <a href="../../index.html#work" class="btn-inicio">Proyectos</a>
-        <h1 id="titulo">BUCK UP</h1>
-    </header>
-        <section>
-            <a href="#modal" class="btn-open-popup">Abrir PopUp</a>
-    
-   
-    
-            <div class="container-all" id="modal">
-    
-                <div class="popup">
-                    <div class="img"></div>
-                    <div class="container-text">
-                        <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam esse illum exercitationem
-                            perferendis accusamus, possimus sed molestiae accusantium necessitatibus neque sit aspernatur
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus facere, sequi. Beatae
-                            recusandae, officiis sapiente amet quod vero est vel.</p>
-                    </div>
-    
-                    <a href="#" class="btn-close-popup">X</a>
-                </div>
-    
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Mohamed</a>
             </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="../../index.html" class="nav__link active">Inicio</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre mi</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Tecnologias</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Proyectos</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">BUCK UP<br> <span class="home__title-color">CONTROLA TUS EMOCIONES</span></h1>
+
+                <a href="#contact" class="button">Contactame</a>
+            </div>
+
         </section>
-        <!-- ====== INTENTANDO HACER UN POP UP MODAL PARA LOS PROYECTOS -->
-        
+    </main>
+
     <!--===== SCROLL REVEAL =====-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
