@@ -58,6 +58,7 @@ body{
   font-size: var(--normal-font-size);
   color: var(--second-color);
 }
+
 h1,h2,p{
   margin: 0;
 }
@@ -315,7 +316,7 @@ img{
   overflow: hidden;
 }
 .work__img img{
-  transition: 1s;
+  transition: 0.5s;
   cursor: pointer;
 }
 .work__img img:hover{
@@ -447,6 +448,7 @@ img{
     margin-right: auto;
   }
   .home__img{
-    right: 10%;
+    top: 47%;
+    right: 20%;
   }
 }
