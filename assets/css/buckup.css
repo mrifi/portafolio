@@ -9,6 +9,7 @@
 :root{
     --first-color: #4070F4;
     --second-color: #0E2431;
+    --third-color: #df73db;
   }
 /*===== Fuente y tipografia =====*/
 :root{
@@ -174,7 +175,15 @@
     right: 0;
   }
 /*===== HOME =====*/
+#home{
+  outline: 2px solid black;
+  background-image: url(../img/emotion.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background: cover;
+}
 .home{
+    outline: 2px solid black;
     height: calc(100vh - 3rem);
     row-gap: 1rem;
   }
@@ -187,7 +196,7 @@
     margin-bottom: var(--mb-5);
   }
   .home__title-color{
-    color: var(--first-color);
+    color: var(--second-color);
   }
   .home__social{
     display: flex;
