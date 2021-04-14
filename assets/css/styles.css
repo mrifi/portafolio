@@ -10,6 +10,7 @@
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
+  --red-color: #ff0000;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -67,8 +68,13 @@ ul{
   padding: 0;
   list-style: none;
 }
+.resaltado{
+  background-color: antiquewhite;
+  color: rgb(54, 5, 5);
+}
 a{
-  text-decoration: none;
+  text-decoration: #fff;
+  color: #76a8db;
 }
 img{
   max-width: 100%;
@@ -80,7 +86,7 @@ img{
 .section-title{
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+  color: var(--red-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -94,7 +100,7 @@ img{
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--red-color);
 }
 .section{
   padding-top: 3rem;
@@ -146,7 +152,7 @@ img{
 }
 .nav__link{
   position: relative;
-  color: #fff;
+  color: rgb(97, 16, 16);
 }
 .nav__link:hover{
   position: relative;
@@ -158,7 +164,7 @@ img{
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--red-color);
 }
 .nav__logo{
   color: var(--second-color);
@@ -177,7 +183,7 @@ img{
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--red-color);
 }
 
 /*=== Show menu ===*/
@@ -198,7 +204,7 @@ img{
   margin-bottom: var(--mb-5);
 }
 .home__title-color{
-  color: var(--first-color);
+  color: var(--red-color);
 }
 .home__social{
   display: flex;
@@ -223,7 +229,7 @@ img{
 /*BUTTONS*/
 .button{
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--red-color);
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -275,7 +281,7 @@ img{
 .skills__icon{
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
+  color: var(--red-color);
 }
 .skills__names{
   display: flex;
@@ -285,7 +291,7 @@ img{
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  background-color: var(--red-color);
   height: .25rem;
   border-radius: .5rem;
   z-index: var(--z-back);
@@ -452,3 +458,34 @@ img{
     right: 20%;
   }
 }
+
+/* aparatdo de trabajo 
+<div id="mimodal" class="modal">
+<div class="modal-contenido">
+    <a href="#">X</a>
+    <iframe src="https://cutt.ly/YvuZTig" frameborder="0" width="400" height="200" allowfullscreen="true"  mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+</div>
+.modal-contenido{
+  background-color:rgb(29, 70, 70);
+  width:440px;
+  padding: 10px 20px;
+  margin: 20% auto;
+  position: relative;
+}
+.modal{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;  
+  opacity: 0;
+  pointer-events: none;
+  transition: all 1s;
+}
+#miModal:target{
+  opacity:1;
+  pointer-events:auto;
+}
+*/
